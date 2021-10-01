@@ -1,7 +1,7 @@
 
 <div align = center >
   <h1>Mobile PetShop App</h1>
-  <h3>Login</h3>
+  <h3>Login Page</h3>
  <img src="https://user-images.githubusercontent.com/69490077/135636943-efc1e0b7-563c-4a0e-9fd6-90f7b89e4cc1.jpg" width="250px"/>
   <h3>Mobile application used to shop in online petshop</h3>
 </div>
