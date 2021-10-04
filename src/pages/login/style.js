@@ -35,14 +35,13 @@ export default styles = StyleSheet.create({
         height: 50
     },
     containerDown: {
-        height: '40%',
+        height: '30%',
         alignItems: 'center',
         justifyContent: 'space-around'
     },
     touch: {
         width: 370,
         height: 50,
-        marginBottom: '28%',
         bottom: '20%',
         borderWidth: 1,
         borderColor: cores.blue,

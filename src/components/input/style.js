@@ -10,7 +10,9 @@ export default styles = StyleSheet.create({
     color: cores.cinzaEscuro,
     backgroundColor: cores.branco,
     borderRadius: 5,
-    borderColor:cores.cinzaEscuro
+    borderColor:cores.cinzaEscuro,
+    borderWidth: 1,
+    
   },
   });
   

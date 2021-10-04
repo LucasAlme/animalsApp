@@ -13,6 +13,8 @@ export default styles = StyleSheet.create({
       borderRadius: 5,
       justifyContent: 'center',
       alignItems: 'center',
+      borderWidth: 1
+      
     }
   });
   
