@@ -2,7 +2,10 @@
 <div align = center >
   <h1>Mobile PetShop App</h1>
   <h3>Login Page</h3>
- <img src="https://user-images.githubusercontent.com/69490077/135636943-efc1e0b7-563c-4a0e-9fd6-90f7b89e4cc1.jpg" width="250px"/>
+ <img src="https://user-images.githubusercontent.com/69490077/135931866-cffa5daa-c383-4b3f-b43e-abc6f554dc80.jpg" width="250px"/>
+   <h3>SignUp Page</h3>
+ <img src="https://user-images.githubusercontent.com/69490077/135931737-c3fd43a5-d1e9-462f-a3f1-05b8a1d70e69.jpg" width="250px"/>
+  <img src="https://user-images.githubusercontent.com/69490077/135931789-19caede7-2cf9-45ff-a6c5-e5922d7f2ac7.jpg" width="250px"/>
   <h3>Mobile application used to shop in online petshop</h3>
 </div>
 # Feature
