@@ -7,6 +7,6 @@ export class Account {
         this.genders = '';
         this.senha = '';
         this.confirmSenha = '';
-
+        this.cpf = '';
     }
 }

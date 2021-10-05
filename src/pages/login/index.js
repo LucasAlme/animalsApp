@@ -22,7 +22,9 @@ export default function Login() {
                         <Icon name="paw" type="font-awesome-5" size={100} color={cores.blue} />
                         <Input width={'90%'} placeholder="E-mail ou CPF" />
                         <Input width={'90%'} placeholder="Senha" />
-                        <Text style={[styles.txt, styles.forgotSty]}>Esqueci minha senha</Text>
+                        <TouchableOpacity onPress={() => navigation.navigate(Telas.forgot)} style={{ alignSelf: 'flex-end' }}>
+                            <Text style={[styles.txt, styles.forgotSty]}>Esqueci minha senha</Text>
+                        </TouchableOpacity>
                     </View>
                     <View style={styles.containerDown}>
                         <Button value="Entrar" customStyle={styles.customBtn} />
