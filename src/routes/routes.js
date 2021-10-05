@@ -3,12 +3,12 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import { Icon } from 'react-native-elements';
 import RecieveCode from '../pages/forgot/recieve-code';
+import SendCode from '../pages/forgot/send-code';
 import Forgot from '../pages/forgot';
 import Login from '../pages/login';
 import SignUp from '../pages/sign-up';
 import { cores } from '../utils/Constants';
 import { Telas } from '../utils/enums/telas'
-import SendCode from '../pages/forgot/send-code';
 
 
 const Stack = createNativeStackNavigator();

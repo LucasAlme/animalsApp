@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { View, Text, Alert } from "react-native";
+import { View, Text, Alert, TouchableOpacity } from "react-native";
 import styles from "./style";
 import Input from '../../../components/input';
 import Button from "../../../components/button";
 import { Account } from "../../../models/account";
 import { useNavigation } from "@react-navigation/native";
 import { Telas } from "../../../utils/enums/telas";
+import { cores } from "../../../utils/Constants";
 
 export default function SendCode() {
 
@@ -38,7 +39,9 @@ export default function SendCode() {
 
                 <View style={{ flexDirection: 'row' }}>
                     <Input width="50%" placeholder="Digite o código" onChangeText={(txt) => setCode(txt)} value={code} type="number-pad" customStyle={styles.vInputs} />
-                    <Text style={[styles.txt, { marginTop: '8%' }]}>Reenviar código</Text>
+                    <TouchableOpacity style={ { marginTop: '7%' }}>
+                        <Text style={[styles.txt, {color: cores.blue}]}>Reenviar código</Text>
+                    </TouchableOpacity>
                 </View>
                 <View style={styles.containerDown}>
                     <Input width="90%" placeholder="Nova senha" onChangeText={(txt) => setAccount({ ...account, senha: txt })} value={account.senha} type="number-pad" customStyle={styles.vInputs} password />
