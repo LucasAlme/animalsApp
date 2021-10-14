@@ -14,7 +14,6 @@ export default function SendCode() {
     const [code, setCode] = useState('');
     const [account, setAccount] = useState(new Account());
 
-
     function isValid() {
         const listErrors = [];
 

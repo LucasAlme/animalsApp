@@ -6,6 +6,7 @@ import RecieveCode from '../pages/forgot/recieve-code';
 import SendCode from '../pages/forgot/send-code';
 import Forgot from '../pages/forgot';
 import Login from '../pages/login';
+import Main from '../pages/main';
 import SignUp from '../pages/sign-up';
 import { cores } from '../utils/Constants';
 import { Telas } from '../utils/enums/telas'
@@ -35,6 +36,14 @@ function App() {
         )
     };
 
+    function MainStack() {
+        return (
+            <Stack.Navigator>
+                <Stack.Screen options={{ headerShown: false }} name={Telas.main} component={Main} />
+            </Stack.Navigator>
+        )
+    }
+
     function AuthStack() {
         return (
             <>
@@ -42,6 +51,7 @@ function App() {
                     <Stack.Screen options={{ headerShown: false }} name={Telas.login} component={Login} />
                     <Stack.Screen options={() => cleanStyle('Minha conta')} name={Telas.signUp} component={SignUp} />
                     <Stack.Screen options={{ headerShown: false }} name={Telas.forgot} component={ForgotStack} />
+                    <Stack.Screen options={{ headerShown: false }} name={Telas.main} component={MainStack} />
                 </Stack.Navigator>
 
             </>

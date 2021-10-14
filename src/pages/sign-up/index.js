@@ -10,6 +10,11 @@ import { Account } from '../../models/account';
 import { validarEmail } from '../../utils/Validacoes';
 import { useNavigation } from '@react-navigation/native';
 
+    const gato = require('../../assets/images/gato.jpg')
+    const cachorro = require('../../assets/images/cachorro.jpg')
+    const passaro = require('../../assets/images/passaros.jpg')
+    const peixe = require('../../assets/images/peixes.jpg')
+
 export default function SignUp() {
     const navigation = useNavigation();
     const [genders, setGenders] = useState(["Homem", "Mulher", "Não-Binário", "Outro", "Prefiro não dizer"]);

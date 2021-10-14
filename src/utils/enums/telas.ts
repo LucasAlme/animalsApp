@@ -4,5 +4,6 @@ export enum Telas {
     signUp = 'signup',
     forgot = 'forgot',
     recieveCode = 'recieveCode',
-    sendCode = 'sendCode'
+    sendCode = 'sendCode',
+    main = 'main',
 }
