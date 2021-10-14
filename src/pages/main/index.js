@@ -52,7 +52,7 @@ export default function Main() {
                     <Text style={styles.txt}>Peixes</Text>
                 </TouchableOpacity>
             </View>
-            <Carousel data={carouselItems} sliderWidth={390} itemWidth={500} renderItem={({ item }) => (
+            <Carousel data={carouselItems} sliderWidth={410} itemWidth={450} renderItem={({ item }) => (
                 <View >
                     <Image source={item.image} style={styles.imgStyle} />
                 </View>

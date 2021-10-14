@@ -40,7 +40,7 @@ export default styles = StyleSheet.create({
     imgStyle: {
         width: 450,
         height: 320,
-        marginLeft: 20,
+        
         position: 'absolute',
     }
 
